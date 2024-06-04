@@ -1,2 +1,2 @@
 # SMS-Loss
-Code will be relased soon.
+Code will be released soon.
