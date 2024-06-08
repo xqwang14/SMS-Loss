@@ -642,7 +642,6 @@ def validate_mir(val_loader, transform_gpu, model, criterion, args):
 
 
 if __name__ == '__main__':
-    multiprocessing.set_start_method('spawn')
     parser = argparse.ArgumentParser('LAVILA training and evaluation', parents=[get_args_parser()])
     args = parser.parse_args()
     os.makedirs(args.output_dir, exist_ok=True)
