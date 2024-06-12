@@ -510,7 +510,7 @@ def train(train_loader, transform_gpu, model, criterion, optimizer, scaler, epoc
                         accum_image_features[:j] + [chunk_image_features] + accum_image_features[j + 1:])
                     text_features = torch.cat(
                         accum_text_features[:j] + [chunk_text_features] + accum_text_features[j + 1:])
-                    loss_dict = criterion(image_features, text_features, weight=relevancies, relevancy_weight = correlation_matrix)
+                    loss_dict = criterion(image_features, text_features, weight=relevancies, relevancy_weight = relevancy_weight)
                     loss = loss_dict['loss']
 
         check_loss_nan(loss)
