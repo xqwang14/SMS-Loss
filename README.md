@@ -1,2 +1,2 @@
 # SMS-Loss
-Code will be released soon.
+A detailed instruction will be released soon.
