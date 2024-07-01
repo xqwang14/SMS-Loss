@@ -1,0 +1,3 @@
+[submodule "third_party/decord"]
+	path = third_party/decord
+	url = https://github.com/xqwang14/decord-avion
