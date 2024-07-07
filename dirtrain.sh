@@ -5,7 +5,7 @@ set -e
 
 DATA_ROOT=/home/wangxiaoqi/EK100_320p_15sec_30fps_libx264
 AVION_ROOT=/home/wangxiaoqi/SMS_eva
-EXP_PATH=/home/wangxiaoqi/AVION/experiments/mir_dir_eva02_sms_1
+EXP_PATH=/home/wangxiaoqi/AVION/experiments/mir_dir_sms_1
 if [ ! -d $EXP_PATH ]; then
     mkdir $EXP_PATH
 fi
