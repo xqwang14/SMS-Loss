@@ -12,5 +12,14 @@ The following paper reports the result of the SMS Loss. You could cite this pape
       year={2024}
 }
 ```
-
+```bib
+@ARTICLE{wang2026tip,
+      title={EVA02-AT: Egocentric Video-Language Understanding With Spatial-Temporal Rotary Positional Embeddings and Symmetric Optimization}, 
+      author={Wang, Xiaoqi and Wang, Yi and Chau, Lap-Pui},
+      journal={IEEE Transactions on Image Processing},
+      volume={35},
+      pages={8940-8951},
+      year={2026}
+}
+```
 Acknowledgements: this codebase borrows a lot from [AVION](https://github.com/zhaoyue-zephyrus/AVION); we thank the authors for releasing their code.
