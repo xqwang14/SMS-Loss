@@ -1,5 +1,5 @@
 # SMS-Loss
-This repository is for the Symmetric Multi-Similiarity Loss.
+This repository is for the Symmetric Multi-Similarity Loss.
 A detailed instruction will be released soon.
 
 ## Citation
